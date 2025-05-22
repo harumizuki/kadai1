@@ -1,0 +1,34 @@
+# Laravel
+/vendor
+/node_modules
+.env
+.env.backup
+.env.production
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+.phpunit.result.cache
+
+# Laravel Mix / Vite
+/public/build
+/public/hot
+
+# IDE / Editor
+/.vscode
+/.idea
+/.fleet
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# NPM / Yarn logs
+auth.json
+npm-debug.log
+yarn-error.log
+
+# Docker
+docker/mysql/data
+docker/mysql/logs
+docker/mysql/tmp
